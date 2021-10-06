@@ -1,7 +1,7 @@
 # AWS_Ansible
 
   
-Ansible 설치
+Ansible 설치 ( Bestion에 설치 하였음 )
 - sudo -y install python-pip
 - sudo yum -y install python-pip
 - sudo pip install --upgrade pip
