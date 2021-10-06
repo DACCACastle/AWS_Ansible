@@ -1,19 +1,19 @@
 # AWS_Ansible
 
   
-Ansible 설치\n
-sudo -y install python-pip\n
-sudo yum -y install python-pip
-sudo pip install --upgrade pip
-sudo pip install boto
-sudo amazon-linux-extras install ansible2
-sudo mkdir -p AWS_Ansible/group_vars/all/
+Ansible 설치
+- sudo -y install python-pip
+- sudo yum -y install python-pip
+- sudo pip install --upgrade pip
+- sudo pip install boto
+- sudo amazon-linux-extras install ansible2
+- sudo mkdir -p AWS_Ansible/group_vars/all/
 
 사용 할 Playbook 생성
-sudo touch AWS_Ansible/playbook.yml
+- sudo touch AWS_Ansible/playbook.yml
 
 접근할 호스트를 인벤토리 형식으로 정의 ( 키는 AWS 키 사용 )
-vi /etc/ansible/hosts
+- vi /etc/ansible/hosts
 [Production]
 
 
