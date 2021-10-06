@@ -1,8 +1,8 @@
 # AWS_Ansible
 
   
-Ansible 설치
-sudo -y install python-pip
+Ansible 설치\n
+sudo -y install python-pip\n
 sudo yum -y install python-pip
 sudo pip install --upgrade pip
 sudo pip install boto
